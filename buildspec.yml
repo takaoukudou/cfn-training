@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      node: 12
+      nodejs: 12
   build:
     commands:
       - sam package --template-file template.yml --s3-bucket cfn-training-takaoukudou-20210411 --output-template-file packaged-template.yml
