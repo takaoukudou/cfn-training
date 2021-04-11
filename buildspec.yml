@@ -9,3 +9,4 @@ phases:
 artifacts:
   files:
     - packaged-template.yml
+  name: packaged-template.yml
