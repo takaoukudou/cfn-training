@@ -13,6 +13,7 @@ phases:
       - npm run serve &
       - ls
       - mabl auth activate-key b1crrVf7k4LYP80p9ubc1g
+      - mabl auth info
       - mabl tests run --id XvqiWzLGhZaxeCi4lzcqxg-j --headless
 artifacts:
   files:
