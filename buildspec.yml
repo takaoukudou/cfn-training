@@ -12,9 +12,10 @@ phases:
       - npm i
       - mabl auth activate-key b1crrVf7k4LYP80p9ubc1g
       - npm install wait-on
-      - npm run serve &
+      - npm run serve
+  post_build:
+    commands:
       - mabl tests run --id XvqiWzLGhZaxeCi4lzcqxg-j --headless
-
 artifacts:
   files:
     - packaged-template.yml
