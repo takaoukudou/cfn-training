@@ -8,6 +8,7 @@ phases:
       - sam package --template-file template.yaml --s3-bucket cfn-training-takaoukudou-20210411 --output-template-file packaged-template.yml
       - cd ${CODEBUILD_SRC_DIR}
       - cd vue-project
+      - npm i -g @mablhq/mabl-cli
       - npm install @mablhq/mabl-cli
       - mabl auth activate-key b1crrVf7k4LYP80p9ubc1g
       - npm install wait-on
