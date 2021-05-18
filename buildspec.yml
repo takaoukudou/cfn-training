@@ -10,8 +10,7 @@ phases:
       - cd vue-project
       - npm i -g @mablhq/mabl-cli
       - npm install wait-on
-      - npm run serve &
-      - ls
+      - npm run serve & wait-on http://localhost:8080
       - mabl auth activate-key b1crrVf7k4LYP80p9ubc1g
       - mabl auth info
       - mabl tests run --id XvqiWzLGhZaxeCi4lzcqxg-j --credentials-id evvlnones0ZDGwgGSKVyBQ-c --headless
