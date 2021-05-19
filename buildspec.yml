@@ -14,7 +14,7 @@ phases:
       - npm run serve & wait-on http://localhost:8080
       - mabl auth activate-key f1fsSVxYjUW5oo2iyKkPRA
       - mabl auth info
-      - mabl tests run --from-plan-id omBIwyV83bcjI8vH53tW3w-p
+      - mabl tests run --from-plan-id omBIwyV83bcjI8vH53tW3w-p --headless
 artifacts:
   files:
     - packaged-template.yml
