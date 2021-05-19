@@ -12,7 +12,7 @@ phases:
       - npm i -g wait-on
       - npm install
       - npm run serve & wait-on http://localhost:8080
-      - mabl auth activate-key b1crrVf7k4LYP80p9ubc1g
+      - mabl auth activate-key f1fsSVxYjUW5oo2iyKkPRA
       - mabl auth info
       - mabl tests run --id XvqiWzLGhZaxeCi4lzcqxg-j
 artifacts:
